@@ -25,6 +25,8 @@ for(i=0;i<n;i++)
   scanf("%d%d",&p2[i].coef,&p2[i].expo);
 }
 
+i = 0; j = 0;
+
 while(i<m&&j<n)
 {
   if(p1[i].expo==p2[j].expo)
