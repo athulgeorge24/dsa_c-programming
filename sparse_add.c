@@ -12,7 +12,7 @@ void convertToSparse(int matrix[10][10], int rows, int cols, int sparse[50][3])
                 sparse[k][0]=i;
                 sparse[k][1]=j;
                 sparse[k][2]=matrix[i][j];
-                k++
+                k++;
             }
         }
     }
