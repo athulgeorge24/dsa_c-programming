@@ -31,7 +31,8 @@ int main()
         }
         else 
         {
-            while (top !=-1 && ((stack[top]=='^'&&ch != '^') || (stack[top]=='*'||stack[top]=='/') || (stack[top]=='+'||stack[top]=='-')&&(ch=='+'||ch=='-'))) 
+            while (top !=-1 && ((stack[top]=='^'&&ch != '^') || (stack[top]=='*'||stack[top]=='/')
+                    || (stack[top]=='+'||stack[top]=='-')&&(ch=='+'||ch=='-'))) 
                 {
                 postfix[j++] = stack[top--];
                 }
